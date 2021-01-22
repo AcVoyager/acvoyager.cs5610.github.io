@@ -1,0 +1,9 @@
+/* The following one is necessary, because sometimes the content is not big enough to 
+fill a page. In this case, we need to force it to be 100% height.*/
+body {
+    height: 100vh;
+}
+
+.org-name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
