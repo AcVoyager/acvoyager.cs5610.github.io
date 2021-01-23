@@ -4,6 +4,10 @@ body {
     height: 100vh;
 }
 
+main {
+    background-color: #f3f5f6;
+}
+
 .org-name {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

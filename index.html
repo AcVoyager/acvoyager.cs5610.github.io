@@ -19,7 +19,7 @@
   <header>
     <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Home</a>
+        <a class="navbar-brand" href="#">Chang Xu</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -40,44 +40,67 @@
     </nav>
   </header>
 
-  <main class="container-fluid my-5 flex-grow-1">
+  <main class="container-fluid pt-5 flex-grow-1">
+    <!-- experience header -->
     <div class="container-fluid py-3 text-center">
-        <div class="row">
-            <h1 class="text-muted">Experience</h1>
+        <div class="row text-muted">
+            <h1>Experience</h1>
         </div>
     </div>
-    
+    <!-- cards start here -->
     <div class="container-fluid d-flex justify-content-center">
-      <div class="col-10 col-lg-8">
-        <div class="card my-5 mx-3 px-3">
-          <div>
-            <img class="img-fluid img-icon" src="./res/amex_icon.jpeg" alt="American Express">
+      <div class="col-10">
+        <div class="card shadow my-5 mx-3 px-3">
+          <div class="row d-flex align-items-center pt-3">
+            <div class="col-2">
+              <img class="img-fluid img-icon" src="./res/amex_icon.jpeg" alt="American Express">
+            </div>
+            <div class="col-10">
+              <h3 class="org-name fw-light mb-1">American Express</h3>
+              <h4 class="fw-light mb-0">Data Analyst Intern</h4>
+            </div>
+            <hr class="mt-3" />
           </div>
-          <div> 
-            <h3 class="org-name fw-light">American Express</h3>
-            <h4 class="fw-light">Data Analyst Intern</h4>
-          </div>
-          
-          <h4>asdsdasdasd</h4>
-          <h4>asdasdasdasd</h4>
           <div>
-
+            <div class="ps-2">
+              <h5>Jul 2020 -- Aug 2020 · 2 mos</h5>
+              <h5>Phoenix, Arizona, United States</h5>
+            </div>
+            <ul>
+              <li>Created a benchmark to evaluate risk prevention strategies in different times periods based on the similarity among 40K applications including canceled, approved, and declined verdicts with Pandas.</li>
+              <li>Conducted hypothesis testing to refine potentially useful features for ML models such as KNN, calculated the similarities which demonstrated the effectiveness of different strategies to find out superior strategy.</li>
+              <li>Constructed and optimized a strategy generating system with a pattern iterator and an automated pattern interpreter to preempt the likelihood of account takeover fraud, which improved the detecting accuracy by 6%.</li>
+            </ul>
           </div>
         </div>
-        <div class="card">
-          <h4 class="text-muted">
-            <img src="./res/amex_icon.jpeg" alt="American Express">
-            <p class="fw-light">Data Analyst Intern</p>
-            
-          </h4>
-          <h4>asdsdasdasd</h4>
-          <h4>asdasdasdasd</h4>
-          <div>
+      </div>
+    </div>
 
+    <div class="container-fluid d-flex justify-content-center">
+      <div class="col-10">
+        <div class="card shadow my-5 mx-3 px-3">
+          <div class="row d-flex align-items-center pt-3">
+            <div class="col-2">
+              <img class="img-fluid img-icon" src="./res/ZJU_icon.png" alt="Zhejiang University">
+            </div>
+            <div class="col-10">
+              <h3 class="org-name fw-light mb-1">Zhejiang University</h3>
+              <h4 class="fw-light mb-0">Research Assistant</h4>
+            </div>
+            <hr class="mt-3" />
           </div>
-        </div>
-        <div class="card">
-
+          <div>
+            <div class="ps-2">
+              <h5>Jul 2018 -- May 2019 · 11 mos</h5>
+              <h5>Hangzhou, Zhejiang, China</h5>
+            </div>
+            <ul>
+              <li>Designed and implemented a sequence-to-sequence neural network Lip-Net for the lip-reading task under the Mandarin context on Pinyin (Mandarin Phonetic Alphabet) level with PyTorch.</li>
+              <li>
+                Optimized the model performance by adjusting network architecture and tuning hyperparameters, and achieved 64.58% recognition accuracy, which outperformed the LipCH-Net lip-reading model by 5.88%.
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
