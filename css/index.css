@@ -8,6 +8,10 @@ main {
     background-color: #f3f5f6;
 }
 
+li {
+    font-size: 1.25em;
+}
+
 .org-name {
     font-weight: 600;
 }
