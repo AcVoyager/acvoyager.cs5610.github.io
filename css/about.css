@@ -1,1 +1,15 @@
 @import 'index.css';
+
+.navbar, footer {
+    opacity: 50%;
+}
+
+img {
+    /* The way to automatically adjust the height and width based on the viewport. */
+    max-width: 100%;
+    min-height: 100vh;
+}
+
+.carousel-caption {
+    text-align: left;
+}

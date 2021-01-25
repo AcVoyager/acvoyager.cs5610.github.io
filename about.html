@@ -18,7 +18,7 @@
     
     <!-- sticky header -->
     <header>
-      <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+      <nav class="navbar navbar-dark navbar-expand-lg bg-dark fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="./index.html">Chang Xu</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,17 +41,54 @@
       </nav>
     </header>
   
-    <main class="container-fluid pt-5 flex-grow-1">
-      <!-- experience header -->
-      <div class="container-fluid py-3 text-center">
-          <div class="row text-muted">
-              <h1>About Me</h1>
+    <main class="container-fluid p-0">
+      
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./res/personal/graduation.jpg" class="img-fluid d-block w-100" alt="graduation">
+            <div class="carousel-caption d-none d-md-block mb-5">
+              <h4>Me</h4>
+              <h5>Senior Year</h5>
+              <h5>June 2019, Zhejiang University</h5>
+            </div>
           </div>
+          <div class="carousel-item">
+            <img src="./res/personal/player.jpg" class="img-fluid d-block w-100" alt="contrabass player">
+            <div class="carousel-caption d-none d-md-block mb-5">
+              <h4>Bass Player</h4>
+              <h5>New Year Concert</h5>
+              <h5>Jan 2019, Hangzhou Theater</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./res/personal/west lake.jpeg" class="img-fluid d-block w-100" alt="west lake">
+            <div class="carousel-caption d-none d-md-block mb-5">
+              <h4>West Lake</a>
+              <h5 class="fw-light">Winter Sudi(苏堤)</h5>
+              <h5 class="fw-light">Jan 2020, Hangzhou</h5>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
       </div>
+
     </main>
     
     <!-- sticky footer -->
-    <footer class="footer mt-auto py-3 bg-dark">
+    <footer class="footer mt-auto py-3 bg-dark fixed-bottom">
       <div class="container">
         <span class="text-muted">@2021 Copyright: Chang Xu</span>
       </div>
@@ -59,6 +96,6 @@
 
   </body>
 
-  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
 </html>
