@@ -8,3 +8,9 @@
     background-color: white;
     color: black;
 }
+
+.card-tail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
