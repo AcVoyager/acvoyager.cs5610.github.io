@@ -24,3 +24,8 @@ li {
 .img-icon {
     max-width: 80%;
 }
+
+#nav-temp-brand {
+    background-color: white;
+    color: black;
+}
