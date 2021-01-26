@@ -3,6 +3,7 @@
 .bi {
     font-size: 4rem;
 }
+
 #nav-contact {
     background-color: white;
     color: black;
@@ -12,4 +13,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 3%;
+}
+
+@media (max-width: 400px) {
+    .grid-wrapper {
+        grid-template-columns: 1fr
+    }
 }
