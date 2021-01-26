@@ -12,11 +12,11 @@
     opacity: 50%;
 }
 
-img {
-    /* The way to automatically adjust the height and width based on the viewport. */
+/* The way to automatically adjust the height and width based on the viewport. */
+/* img {
     max-width: 100%;
     min-height: 100vh;
-}
+} */
 
 .carousel-caption {
     text-align: left;
@@ -25,4 +25,11 @@ img {
 #nav-about{
     background-color: white;
     color: black;
+}
+
+@media (orientation:landscape) {
+    img {
+        max-width: 100%;
+        min-height: 100vh;
+    }
 }
