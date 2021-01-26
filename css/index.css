@@ -32,12 +32,16 @@ li {
 }
 
 .nav-item {
-    padding-left: 0.5em;
-    margin-left: 0.5em;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    margin-left: 0.25em;
 }
 
 #nav-home {
     background-color: white;
+}
+
+#nav-home > .nav-link {
     color: black;
 }
 

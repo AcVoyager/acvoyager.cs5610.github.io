@@ -6,6 +6,9 @@
 
 #nav-project{
     background-color: white;
+}
+
+#nav-project > .nav-link {
     color: black;
 }
 

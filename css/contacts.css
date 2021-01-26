@@ -6,6 +6,9 @@
 
 #nav-contact {
     background-color: white;
+}
+
+#nav-contact > .nav-link {
     color: black;
 }
 

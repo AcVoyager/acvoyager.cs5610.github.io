@@ -24,6 +24,9 @@
 
 #nav-about{
     background-color: white;
+}
+
+#nav-about > .nav-link {
     color: black;
 }
 
