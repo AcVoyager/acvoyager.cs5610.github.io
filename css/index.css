@@ -40,3 +40,13 @@ li {
     background-color: white;
     color: black;
 }
+
+@media (min-width: 600px) {
+    .navbar {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    .navbar .navbar-nav {
+        flex-direction: row;
+    }
+}
