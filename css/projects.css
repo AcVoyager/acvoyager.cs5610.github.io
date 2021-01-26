@@ -18,5 +18,5 @@
 /* only to illustrate use of first-letter */
 .card-text > ul > li::first-letter {
     font-size: 130%;
-    color:cornflowerblue
+    font-weight: 500;
 }
